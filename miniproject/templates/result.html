@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result</title>
+  <link rel="stylesheet" href="static/result.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="result-box">
+  <h2>Result</h2>
+  <form>
+    <main>
+      <p><strong>Entered SMS:</strong> {{ text }}</p>
+      <p><strong>Result:</strong> {{ result }}</p>
+  </main>
+  <a href="{{ url_for('sms_check') }}">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Back to Home
+    </a>
+  </form>
+</div>
+
+  
+</body>
+</html>
